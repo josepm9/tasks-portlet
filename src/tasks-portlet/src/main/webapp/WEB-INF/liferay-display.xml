@@ -1,0 +1,5 @@
+<display>
+     <category name="MIMACOM">
+         <portlet id="tasks-viewer-portlet"></portlet>
+     </category>
+ </display>

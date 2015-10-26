@@ -1,0 +1,7 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+	<listener>
+		<listener-class>
+			jpm.mimacom.tasks.app.TasksAppContextListener
+		</listener-class>
+	</listener>
+</web-app>

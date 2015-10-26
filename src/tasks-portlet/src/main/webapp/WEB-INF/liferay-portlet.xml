@@ -1,0 +1,6 @@
+<liferay-portlet-app>
+    <portlet>
+        <portlet-name>tasks-viewer-portlet</portlet-name>
+        <instanceable>false</instanceable>
+    </portlet>
+</liferay-portlet-app>

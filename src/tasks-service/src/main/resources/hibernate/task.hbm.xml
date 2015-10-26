@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="jpm.mimacom.tasks.bo.Task" table="TASK_">
+
+		<composite-id name="pk" class="jpm.mimacom.tasks.bo.TaskPk">
+			<key-property name="id" column="ID_" length="20" />
+			<key-property name="userid" column="USERID_" length="20" />
+		</composite-id>
+
+		<property name="created" column="CREATED_" type="long" />
+		<property name="limit" column="LIMIT_" type="long" />
+		<property name="closed" column="CLOSED_" type="long" />
+
+		<property name="state" column="STATE_" type="string" length="20" />
+		<property name="summary" column="SUMMARY_" type="string"
+			length="50" />
+		<property name="description" column="DESCRIPTION_" type="string"
+			length="1000" />
+	</class>
+</hibernate-mapping>
